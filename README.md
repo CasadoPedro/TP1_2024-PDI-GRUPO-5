@@ -2,7 +2,7 @@
 
 Pasos necesarios para el correcto funcionamiento del TP.  
 Clonar el repositorio del link que se adjunta a continuación: https://github.com/CasadoPedro/TP1_2024-PDI-GRUPO-5/  
-Desde la terminal acceder a la carpeta TP-PDI con el comando: cd .\TP1\  
+Desde la terminal acceder a la carpeta TP1 con el comando: cd .\TP1\  
 Instalar python en el entorno que se desee utilizar. Puede hacerse desde https://www.python.org/downloads/ para Windows, o con los siguientes comandos para Linux:   
 Verifica si Python está instalado:  
 python --version  

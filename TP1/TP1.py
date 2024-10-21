@@ -40,7 +40,7 @@ def eq_local_histograma(img: np.uint8, size: int) -> np.uint8:
 
 
 # Cargar imagen
-img = cv2.imread("TP1\Imagen_con_detalles_escondidos.tif", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("./Imagen_con_detalles_escondidos.tif", cv2.IMREAD_GRAYSCALE)
 
 
 # Visualización comparativa de distintos tamaños de ventana
@@ -324,11 +324,11 @@ def validar_encabezado(img: np.uint8, filas: list) -> np.uint8:
 
 
 # Apartado C
-examenes = {1: 'TP1/examen_1.png',
-            2: 'TP1/examen_2.png',
-            3: 'TP1/examen_3.png',
-            4: 'TP1/examen_4.png',
-            5: 'TP1/examen_5.png'}
+examenes = {1: './examen_1.png',
+            2: './examen_2.png',
+            3: './examen_3.png',
+            4: './examen_4.png',
+            5: './examen_5.png'}
 
 n_condicion = dict() # diccionario con pares 'Número de examen': 'Condición'
 n_name = dict() # diccionario con pares 'Número de examen': 'Imagen dl campo Name'
